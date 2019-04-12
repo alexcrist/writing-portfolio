@@ -1,0 +1,53 @@
+body {
+    margin: 24px auto 0 auto;
+    width: 700px;
+    max-width: 90%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'Rufina', serif;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.header {
+    margin-bottom: 48px;
+}
+
+.header a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-right: calc((80% - 371px) / 4);
+    margin-bottom: 6px;
+    border-bottom: 1px solid black;
+}
+
+.section-title {
+    font-family: 'Rufina', serif;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+img.alex {
+    display: inline-block;
+    margin-right: 24px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.writing {
+    display: inline-block;
+    width: calc(90% - 200px - 24px);
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: -10px;
+}
